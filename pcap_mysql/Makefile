@@ -3,7 +3,7 @@
 
 CPP      = g++
 CC       = gcc
-CSRC     = monitor.c
+CSRC     = pcap_mysql.c
 OBJ      = $(CSRC:.c=.o)
 LINKOBJ  = $(CSRC:.c=.o)
 LIBS     = -L/usr/lib/ -lmysqlclient -I/usr/include/mysql -lpcap
